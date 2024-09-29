@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pramita's Portfolio Website </title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    .card-img-top {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .badge {
+      color: white;
+      font-size: 0.75rem;
+      padding: 0.3rem 0.7rem;
+    }
+  </style>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <p align="right">
+        <a href="https://www.linkedin.com/in/pramitasandhyan/" target="_blank" rel="noreferrer"> <img
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="bash" width="40" height="40" /> </a>
+        <a href="https://github.com/Pramita0410" target="_blank" rel="noreferrer"> <img
+            src="https://cdn.cdnlogo.com/logos/g/55/github.svg" alt="aws" width="40" height="40" /> </a>
+
+      </p>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Pramita</div>
+        <div class="text-three">Data Analyst | Engineer</div>
+        <div class="text-four">From Boston, MA</div>
+      </div>
+      <div class="button">
+
+        <a class="fcc-btn" href="mailto:sandhyan.p@northeastern.edu">Contact me</a>
+      </div>
+    </div>
+  </section>
+
+  </div>
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/about.jpg" alt="">
+        </div>
+        <div class="right">
+          <div class="topic">Exploring Data Is My Passion</div>
+          <p>Detail-oriented Data Analyst | Engineer with experience in designing and optimizing data solutions to drive
+            actionable
+            insights. <br> <br>Foundation in data manipulation, analysis, and visualization. Proficient in utilizing
+            tools and technologies such as Python, SQL, Power BI, and Tableau to drive data-driven decision-making.
+            Experienced in cloud platforms, including AWS, and skilled in developing data pipelines and ETL processes.
+            Holds a Bachelor of Engineering in Information Technology, complemented by a Master of Science in
+            Information Systems. <br> <br>
+            Currently exploring Generative AI to enhance predictive modeling, and improve overall data-driven
+            decision-making.</p>
+          <div class="button">
+            <a href="cv/Pramita Dileep Sandhyan Data Analyst Resume.pdf"><button>Download CV</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Projects</span></div>
+      <div class="boxes">
+
+        <div class="box d-flex flex-column" style="height: 400px;">
+          <a href="https://github.com/Pramita0410/AI-powered-resume-scanner" target="_blank" class="flex-grow-1">
+            <img src="images/llm2.png" class="card-img-top" alt="Customer Analysis">
+            <div class="topic">RAG based Resume Screening</div>
+            <p>AI-powered chatbot for resume screening that utilizes advanced Large Language Models and retrieval
+              techniques to efficiently match candidates with job descriptions</p>
+
+            <div class="d-flex justify-content-start mt-auto"> <!-- Added Flexbox here -->
+              <span style="margin-left: 12px;" class=" badge rounded-pill bg-light text-dark">LLM</span>
+              <span style="margin-left: 12px;" class=" badge rounded-pill bg-light text-dark">Python</span>
+              <span style="margin-left: 12px;" class=" badge rounded-pill bg-light text-dark">Streamlit</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="box d-flex flex-column" style="height: 400px;"> <!-- Added height for visibility -->
+          <a href="https://github.com/Pramita0410/Food-Delivery-Management" target="_blank" class="flex-grow-1"> <!-- Allow link to take available space -->
+              <img src="images/fdm.png" class="card-img-top" alt="Food Delivery Management System">
+              <div class="topic">Food Delivery Management System</div>
+              <p>An ETL pipeline with Apache Airflow to process data from AWS S3, transforming it for dynamic reporting in Google BigQuery.</p>
+          </a>
+          <div class="d-flex justify-content-start mt-auto"> <!-- Flexbox with margin-top auto to push badges to bottom -->
+              <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">Airflow</span>
+              <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">AWS</span>
+              <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">PowerBI</span>
+          </div>
+      </div>
+      
+
+      <div class="box d-flex flex-column" style="height: 400px;"> <!-- Added height for visibility -->
+        <a href="https://github.com/Pramita0410/Movie-Data-Analysis/tree/master" target="_blank" class="flex-grow-1">
+            <img src="images/mda.png" class="card-img-top" alt="Movie Data Analysis">
+            <div class="topic">Movie Data Analysis</div>
+            <p>Analyzed trends in cinema, genre performance, director success, seasonal earnings, and global releases, enhancing insights into the film industry.</p>
+        </a>
+        <div class="d-flex justify-content-start mt-auto"> <!-- Flexbox with margin-top auto to push badges to bottom -->
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">Alteryx</span>
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">SQL</span>
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">Tableau</span>
+        </div>
+    </div>
+    
+
+        <div class="box d-flex flex-column" style="height: 400px;">
+          <a href="https://github.com/Pramita0410/Smart-City-Realtime-data-pipeline" target="_blank" class="flex-grow-1">
+            <img src="images/smp.png" class="card-img-top" alt="Customer Analysis">
+            <div class="topic">Real-Time Smart City Data Pipeline</div>
+            <p>Real-time data pipeline to visualize vehicle data, including speed and incidents, from Northeastern
+              University to Times Square</p>
+          </a>
+          <div class="d-flex justify-content-start mt-auto"> <!-- Flexbox with margin-top auto to push badges to bottom -->
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">AWS</span>
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">Docker</span>
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">PySpark</span>
+        </div>
+        </div>
+        
+
+
+        <div class="box d-flex flex-column" style="height: 400px;">
+          <a href="https://github.com/Pramita0410/Power-BI/blob/main/Product%20Sales%20Analysis/Customer%20Sales%20Analysis.pdf" target="_blank" class="flex-grow-1">
+            <img src="images/psa.png" class="card-img-top" alt="Sales Analysis">
+            <div class="topic">Product sales Analysis</div>
+            <p>Dashboards that simplify the analysis of sales trends, customer behavior, and product success, offering clear and interactive insights for informed decision-making.</p>
+          </a>
+          <div class="d-flex justify-content-start mt-auto"> <!-- Flexbox with margin-top auto to push badges to bottom -->
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">Power BI</span>
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">Talend</span>
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">SQL</span>
+        </div>
+        </div>
+
+        <div class="box d-flex flex-column" style="height: 400px;">
+          <a href="https://github.com/Pramita0410/Data-Science-Python/blob/master/MCD_EDA.ipynb" target="_blank" class="flex-grow-1">
+            <img src="images/mcd.png" class="card-img-top" alt="Sales Analysis">
+            <div class="topic">McDonald's Nutritional Analytics</div>
+            <p>Analyzed McDonald's menu data to explore nutritional trends using Python. Identified key insights on caloric content and correlations between nutrients.</p>
+          </a>
+          <div class="d-flex justify-content-start mt-auto"> <!-- Flexbox with margin-top auto to push badges to bottom -->
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">Machine Learning</span>
+            <span class="badge rounded-pill bg-light text-dark" style="margin-left: 12px;">Python</span>
+        </div>
+        </div>
+        
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+   <section class="contact" id="contact"> 
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+         <div class="topic">Want to Hire?</div> 
+        <p>Let's connect and explore how my skills and expertise can contribute to your project's success!
+        </p>
+        <div class="button">
+          <a class="fcc-btn" href="https://www.linkedin.com/in/pramitasandhyan/">Let's Chat</a>
+          <a class="fcc-btn" href="mailto:sandhyan.p@northeastern.edu">Email me</a>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Pramita</a> | &#169; 2024 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
