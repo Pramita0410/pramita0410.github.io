@@ -457,8 +457,10 @@ footer .text span a:hover{
 
 @media (max-width: 750px) {
   nav .navbar{
-    width: 90%;
+    width: 80%;
+   
   }
+
   nav .navbar .menu{
     position: fixed;
     left: -100%;
@@ -474,7 +476,7 @@ footer .text span a:hover{
   }
   .navbar.active .menu{
     left: 0;
-  }
+      }
   nav .navbar .menu a{
     font-size: 23px;
     display: block;
@@ -490,6 +492,7 @@ footer .text span a:hover{
   nav .menu-btn,
   .navbar .menu .cancel-btn{
     display: block;
+    text-align: center;
   }
   .home .text-two{
     font-size: 65px;
@@ -518,6 +521,9 @@ footer .text span a:hover{
   .contact .text{
     width: 100%;
 }
+.home {
+  background: none;
+}
 }
 
 @media (max-width: 500px){
@@ -530,6 +536,9 @@ footer .text span a:hover{
   .skills-details .boxes .per{
     font-size: 50px;
     color: #4070f4;
+  }
+  .home {
+    background: none;
   }
 }
 
